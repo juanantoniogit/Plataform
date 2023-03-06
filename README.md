@@ -3,7 +3,9 @@
 
 Creditos:
 
-Video referencia:https://youtu.be/Qnbmb0uzmvE
+Videos referencia:
+            https://youtu.be/Qnbmb0uzmvE
+            https://www.youtube.com/watch?v=Sjmb52qFkJo
 
 Imagen de TileMap: 
             Autor: Kenney. Kenney.nl or "www.kenney.nl from OpenGameArt.org            
