@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://bbexqf82dlgsx"]
 
 [ext_resource type="Script" path="res://Juego/Players/Player02/player02.gd" id="1_h7ckc"]
-[ext_resource type="Texture2D" uid="uid://b72qsorhmx1cn" path="res://Juego/Players/Player01/Img/p1_spritesheet.png" id="2_pdo45"]
+[ext_resource type="Texture2D" uid="uid://b7bihnv24g5k5" path="res://Juego/Players/Player02/Img/p2_spritesheet.png" id="2_4wwkw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5qu5h"]
 size = Vector2(16, 26)
@@ -87,7 +87,7 @@ shape = SubResource("RectangleShape2D_5qu5h")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 0.5)
 scale = Vector2(0.25, 0.28125)
-texture = ExtResource("2_pdo45")
+texture = ExtResource("2_4wwkw")
 hframes = 7
 vframes = 3
 frame = 1
