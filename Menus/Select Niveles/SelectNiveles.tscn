@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://yr8lnnapj116"]
+
+[ext_resource type="Script" path="res://Menus/Select Niveles/SelectNiveles.gd" id="1_w8048"]
+
+[node name="SelectNiveles" type="Node"]
+script = ExtResource("1_w8048")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+
+[node name="Nivel1" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel 1"
+
+[node name="Label" type="Label" parent="VBoxContainer/Nivel1"]
+visible = false
+layout_mode = 0
+text = "Nivel1"
+
+[node name="Nivel2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel 2"
+
+[node name="Label" type="Label" parent="VBoxContainer/Nivel2"]
+visible = false
+layout_mode = 0
+text = "Nivel2"
+
+[node name="Nivel3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel 3"
+
+[node name="Label" type="Label" parent="VBoxContainer/Nivel3"]
+visible = false
+layout_mode = 0
+text = "Nivel3"
+
+[node name="Nivel4" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Nivel4"
+
+[node name="Label" type="Label" parent="VBoxContainer/Nivel4"]
+visible = false
+layout_mode = 0
+text = "Nivel4"
+
+[connection signal="pressed" from="VBoxContainer/Nivel1" to="." method="_on_nivel_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/Nivel2" to="." method="_on_nivel_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Nivel3" to="." method="_on_nivel_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/Nivel4" to="." method="_on_nivel_4_pressed"]

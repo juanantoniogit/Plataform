@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0pprvp0b5p7w"]
+
+[ext_resource type="Script" path="res://Menus/Creditos/Creditos.gd" id="1_2do0n"]
+
+[node name="Creditos" type="Node"]
+script = ExtResource("1_2do0n")
+
+[node name="Creditos" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 66.0
+offset_right = 466.0
+offset_bottom = 144.0
+text = "Créditos del juego 
+Este juego lo han hecho unos máquinas de la programación. 
+XD
+"
+
+[node name="MenuPrincipal" type="Button" parent="."]
+text = "Menu Principal
+"
+
+[connection signal="pressed" from="MenuPrincipal" to="." method="_on_menu_principal_pressed"]
