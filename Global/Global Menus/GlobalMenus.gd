@@ -5,7 +5,7 @@ extends Node
 
 
 func _ready():
-	print ("hopla")
+	#print ("hopla")
 	$".".add_child(MenuPrin)
 	$"Musica Menus".play()
 #	print (root_node."Global Menus")
