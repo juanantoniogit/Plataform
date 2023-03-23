@@ -20,7 +20,7 @@ Audio puntos:
             Licencia: CC-BY 3.0  
             Directorio en el proyecto:/home/ksk/Proyectos/Plataform-main/Recursos/Sonidos/Picked Coin Echo.wav
 	
-Audio musica01:
+Audio musica01:  
 	Nombre: [Town Theme RPG](https://opengameart.org/content/town-theme-rpg)  
 	Author: cynicmusic  
             Licencia: CC0  
