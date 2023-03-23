@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="Nuevo Proyecto De Juego"
+run/main_scene="res://Global/Global Menus/Global Menus.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Global/Global.gd"
