@@ -30,7 +30,7 @@ func _physics_process(delta):
 		
 	$Sprite2D.flip_h = direction < 0 if direction !=0 else $Sprite2D.flip_h
 	
-	print (direction)	
+	#print (direction)	
 	
 	
 	move_and_slide()

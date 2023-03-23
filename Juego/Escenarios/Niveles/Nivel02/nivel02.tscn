@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://buh3rsqx7l5f7"]
+[gd_scene load_steps=8 format=3 uid="uid://buh3rsqx7l5f7"]
 
 [ext_resource type="PackedScene" uid="uid://bbexqf82dlgsx" path="res://Juego/Players/Player02/player02.tscn" id="1_kfidw"]
 [ext_resource type="PackedScene" uid="uid://0qa7klxxr5eq" path="res://Juego/Players/Player01/player01.tscn" id="2_kvvf2"]
 [ext_resource type="Texture2D" uid="uid://r4k7gcgk7fbo" path="res://Recursos/TileMap/preview.png" id="3_6kitw"]
+[ext_resource type="PackedScene" uid="uid://cube7w5ffs3fh" path="res://Juego/Escenarios/Potenciadores/Ganar/ganar.tscn" id="4_3n53w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vcv1l"]
 size = Vector2(1062, 87)
@@ -198,7 +199,7 @@ terrain_set_0/terrain_0/name = "Terrain 01"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetAtlasSource_ncjth")
 
-[node name="Mundo" type="Node"]
+[node name="nivel2" type="Node"]
 
 [node name="player02" parent="." instance=ExtResource("1_kfidw")]
 position = Vector2(238, 155)
@@ -224,3 +225,6 @@ position = Vector2(61, 129)
 
 [node name="PosicionSalida2" type="Marker2D" parent="."]
 position = Vector2(443, 85)
+
+[node name="Ganar" parent="." instance=ExtResource("4_3n53w")]
+position = Vector2(-39, 189)

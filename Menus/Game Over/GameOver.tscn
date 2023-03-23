@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://djyxij5ovp037"]
 
 [ext_resource type="Script" path="res://Menus/Game Over/GameOver.gd" id="1"]
-[ext_resource type="PackedScene" path="res://Menus/Comunes/Boton Menu principal.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bggme2nwqjq23" path="res://Menus/Comunes/Boton Menu principal.tscn" id="2"]
 [ext_resource type="AudioStream" uid="uid://ct6avv6unx0q" path="res://Menus/Sonidos/GameOver.wav" id="3"]
 
 [node name="GameOver" type="Node"]

@@ -3,6 +3,12 @@ extends Node
 var partida 
 
 func _ready():
+	mostrarPantalla()
+	pass
+	
+	
+#Muestra los botones para seleccionar el nivel segun el nivel alcanzado
+func mostrarPantalla():
 	$VBoxContainer.set_position(Vector2(get_viewport().size.x/4 , get_viewport().size.y/4))
 	if Global.pantalla == 0:
 #		print(get_node("VBoxContainer/Nivel2").get_global_transform()[2])
@@ -35,7 +41,7 @@ func _load_scene(nivel):
 	partida.set_name("partida")
 	partida.get_node("PosicionSalida1").add_child(Global.personaje)
 	get_parent().get_parent().add_child(partida)
-	print (Global.personaje.get_path())
+	#print (Global.personaje.get_path())
 	get_parent().get_node("Musica Menus").stop()
 	$".".queue_free()
 
@@ -46,19 +52,27 @@ func _on_nivel_1_pressed():
 	get_parent().get_node("boton").play()
 	pass
 
-func _on_nivel2_pressed():
-	_load_scene("res://Ejecutable/Juego/Escenarios/Niveles/Nivel2/nivel2.tscn")
+func _on_nivel_2_pressed():
+	_load_scene("res://Juego/Escenarios/Niveles/Nivel02/nivel02.tscn")
 	get_parent().get_node("boton").play()
 	pass # replace with function body
 
-func _on_nivel3_pressed():
-	_load_scene("res://Ejecutable/Juego/Escenarios/Niveles/Nivel3/nivel3.tscn")
+func _on_nivel_3_pressed():
+	_load_scene("res://Juego/Escenarios/Niveles/Nivel03/nivel03.tscn")
 	get_parent().get_node("boton").play()
 	pass # replace with function body
 
-func _on_nivel4_pressed():
-	_load_scene("res://Ejecutable/Juego/Escenarios/Niveles/Nivel4/nivel4.tscn")
+func _on_nivel_4_pressed():
+	_load_scene("res://Juego/Escenarios/Niveles/Nivel04/nivel04.tscn")
 	get_parent().get_node("boton").play()
 	pass # replace with function body
+
+
+
+
+
+	
+
+
 
 
