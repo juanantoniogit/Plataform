@@ -14,4 +14,9 @@ Imagen de TileMap:
             Licencia: CC0            
             Directorio en el proyecto: /Recursos/TileMap/preview.png            
             
+Audio puntos:  
+            Nombre: Picked Coin Echo   
+            Author: NenadSimic 
+            Licencia: CC-BY 3.0  
+            Directorio en el proyecto:/home/ksk/Proyectos/Plataform-main/Recursos/Sonidos/Picked Coin Echo.wav
             
