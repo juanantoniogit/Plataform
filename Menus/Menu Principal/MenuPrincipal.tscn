@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://c6f5x4lwxvpf8"]
+[gd_scene load_steps=4 format=3 uid="uid://c6f5x4lwxvpf8"]
 
 [ext_resource type="Script" path="res://Menus/Menu Principal/MenuPrincipal.gd" id="1"]
-[ext_resource type="AudioStream" uid="uid://n44ma32a6mle" path="res://Menus/Sonidos/boton.wav" id="2"]
-[ext_resource type="AudioStream" uid="uid://cvbkp16vae5lh" path="res://Menus/Sonidos/Musica.ogg" id="3"]
+[ext_resource type="AudioStream" uid="uid://b6u5ok0q41s3r" path="res://Recursos/Sonidos/musica01.mp3" id="2_0d1pl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dkw1i"]
 
@@ -16,7 +15,6 @@ layout_mode = 2
 text = "Jugar"
 
 [node name="boton" type="AudioStreamPlayer2D" parent="VBoxContainer/Jugar"]
-stream = ExtResource("2")
 
 [node name="Creditos" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -24,7 +22,6 @@ text = "Creditos"
 
 [node name="boton" type="AudioStreamPlayer2D" parent="VBoxContainer/Creditos"]
 position = Vector2(0, -32)
-stream = ExtResource("2")
 
 [node name="Salir" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -33,11 +30,10 @@ icon = SubResource("AtlasTexture_dkw1i")
 
 [node name="boton" type="AudioStreamPlayer2D" parent="VBoxContainer/Salir"]
 position = Vector2(0, -32)
-stream = ExtResource("2")
 
 [node name="Musica" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(131, 39)
-stream = ExtResource("3")
+stream = ExtResource("2_0d1pl")
 
 [connection signal="pressed" from="VBoxContainer/Jugar" to="." method="_on_Jugar_pressed"]
 [connection signal="pressed" from="VBoxContainer/Creditos" to="." method="_on_Creditos_pressed"]

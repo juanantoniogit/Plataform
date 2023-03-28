@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Menus/Win/WinS.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://bggme2nwqjq23" path="res://Menus/Comunes/Boton Menu principal.tscn" id="2"]
-[ext_resource type="AudioStream" uid="uid://dy75gtiu04iga" path="res://Menus/Sonidos/win.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://iwbb5fjayb6y" path="res://Recursos/Sonidos/pot01.wav" id="3_37rg5"]
 
 [node name="Win" type="Node"]
 script = ExtResource("1")
@@ -10,7 +10,7 @@ script = ExtResource("1")
 [node name="Boton Menu principal" parent="." instance=ExtResource("2")]
 
 [node name="AudioWin" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3")
+stream = ExtResource("3_37rg5")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 6.0
