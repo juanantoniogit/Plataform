@@ -42,29 +42,30 @@ func _load_scene(nivel):
 	partida.get_node("PosicionSalida1").add_child(Global.personaje)
 	get_parent().get_parent().add_child(partida)
 	#print (Global.personaje.get_path())
-	get_parent().get_node("Musica Menus").stop()
+	get_parent().get_node("Sonidos/Musica01").stop()
+	
 	$".".queue_free()
 
 
 
 func _on_nivel_1_pressed():
 	_load_scene("res://Juego/Escenarios/Niveles/Nivel01/nivel01.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass
 
 func _on_nivel_2_pressed():
 	_load_scene("res://Juego/Escenarios/Niveles/Nivel02/nivel02.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
 
 func _on_nivel_3_pressed():
 	_load_scene("res://Juego/Escenarios/Niveles/Nivel03/nivel03.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
 
 func _on_nivel_4_pressed():
 	_load_scene("res://Juego/Escenarios/Niveles/Nivel04/nivel04.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
 
 

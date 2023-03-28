@@ -15,12 +15,12 @@ func _load_scene(personaje):
 
 func _on_player_1_pressed():
 	_load_scene("res://Juego/Players/Player01/player01.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
 
 func _on_player_2_pressed():
 	_load_scene("res://Juego/Players/Player02/player02.tscn")
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
 
 #func _process(delta):

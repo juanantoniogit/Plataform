@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Juego/Escenarios/Potenciadores/Ganar/ganar.gd" id="1_ht77p"]
 [ext_resource type="Texture2D" uid="uid://r4k7gcgk7fbo" path="res://Recursos/TileMap/preview.png" id="2_t0tue"]
-[ext_resource type="AudioStream" uid="uid://iwbb5fjayb6y" path="res://Recursos/Sonidos/pot01.wav" id="3_87who"]
+[ext_resource type="AudioStream" uid="uid://bw7mpk18went7" path="res://Recursos/Sonidos/pot02.wav" id="3_ealmn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qa1c2"]
 
@@ -22,6 +22,9 @@ region_enabled = true
 region_rect = Rect2(138.926, 16.8073, 16.5398, 14.8434)
 
 [node name="AudioWin" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_87who")
+stream = ExtResource("3_ealmn")
+volume_db = 24.0
+pitch_scale = 1.96
+attenuation = 0.032352
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

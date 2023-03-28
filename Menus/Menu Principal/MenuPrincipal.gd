@@ -9,18 +9,18 @@ func _ready():
 
 func _on_Creditos_pressed():
 	get_node("/root/Global Menus").add_child(Creditos)
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	$".".queue_free()
 	pass 
 
 func _on_Jugar_pressed():
 	get_node("/root/Global Menus").add_child(Jugar)
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	$".".queue_free()
 	pass 
 
 
 func _on_Salir_pressed():
 	get_tree().quit()
-	get_parent().get_node("boton").play()
+	get_parent().get_node("Sonidos/boton01").play()
 	pass # replace with function body
