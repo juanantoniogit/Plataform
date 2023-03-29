@@ -7,7 +7,7 @@ extends Control
 
 func _on_Button_pressed():
 	get_node("/root/Global Menus").add_child(MenPrincipal)
-	get_parent().get_parent().get_node("boton").play()
+	get_parent().get_parent().get_node("Sonidos/boton01").play()
 	get_parent().queue_free()
 	print(get_parent().get_parent().name)
 	
