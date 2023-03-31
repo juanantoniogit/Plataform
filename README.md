@@ -13,7 +13,7 @@ Imagen de TileMap:
             Autor: Kenney. Kenney.nl or "www.kenney.nl from OpenGameArt.org  
             Titulo: [Platformer Art Complete Pack](https://opengameart.org/content/platformer-art-complete-pack-often-updated)  
             Licencia: CC0  
-            Directorio en el proyecto: /Recursos/TileMap/preview.png  
+            Directorio en el proyecto: [/Recursos/TileMap/preview.png](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/TileMap/preview.png)
 
 Audio puntos:  
 	Autor: NenadSimic  
