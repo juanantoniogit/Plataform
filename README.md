@@ -46,9 +46,9 @@ Audio boton01:
 	Directorio en el proyecto: [Recursos/Sonidos/boton01.wav  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/boton01.wav)
 
 Audio boton02:  
-	Nombre:[Menu Selection Click](https://opengameart.org/content/menu-selection-click)  
-	Author: NenadSimic  
-        Licencia: CC-BY 3.0  
+	Nombre:[Knife sharpening slice 1](https://opengameart.org/content/menu-selection-click)  
+	Author: The Berklee College of Music  
+        Licencia: CC-BY 3.0 
 	Directorio en el proyecto: [Recursos/Sonidos/boton02.wav  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/boton02.wav)
 
 
