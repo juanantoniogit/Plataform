@@ -49,7 +49,7 @@ Audio boton02:
 	Nombre:[Knife sharpening slice 1](https://opengameart.org/content/menu-selection-click)  
 	Author: The Berklee College of Music  
         Licencia: CC-BY 3.0 
-	Directorio en el proyecto: [Recursos/Sonidos/boton02.wav  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/boton02.wav)
+	Directorio en el proyecto: [Recursos/Sonidos/boton02.flac  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/boton02.flac)
 
 
 Audio golpe01:  
