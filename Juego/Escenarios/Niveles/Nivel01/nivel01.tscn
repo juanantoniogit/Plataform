@@ -1,8 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://buh3rsqx7l5f7"]
+[gd_scene load_steps=9 format=3 uid="uid://buh3rsqx7l5f7"]
 
+[ext_resource type="Script" path="res://Juego/Escenarios/Niveles/Nivel01/nivel01.gd" id="1_peggx"]
 [ext_resource type="PackedScene" uid="uid://cube7w5ffs3fh" path="res://Juego/Escenarios/Potenciadores/Ganar/ganar.tscn" id="2_4s6bx"]
 [ext_resource type="Texture2D" uid="uid://r4k7gcgk7fbo" path="res://Recursos/TileMap/preview.png" id="3_6kitw"]
 [ext_resource type="AudioStream" uid="uid://dblqlmed0jn0j" path="res://Recursos/Sonidos/musica02.wav" id="3_akbex"]
+[ext_resource type="PackedScene" uid="uid://cuf85d4a14xam" path="res://Juego/Escenarios/Potenciadores/Puntos/puntos.tscn" id="5_6j2i2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vcv1l"]
 size = Vector2(1062, 87)
@@ -199,6 +201,7 @@ terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetAtlasSource_ncjth")
 
 [node name="nivel1" type="Node"]
+script = ExtResource("1_peggx")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
@@ -222,3 +225,9 @@ position = Vector2(697, 244)
 [node name="Muscia" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_akbex")
 autoplay = true
+
+[node name="puntos" type="Node2D" parent="."]
+position = Vector2(697, 244)
+
+[node name="Puntos" parent="puntos" instance=ExtResource("5_6j2i2")]
+position = Vector2(-156, -110)

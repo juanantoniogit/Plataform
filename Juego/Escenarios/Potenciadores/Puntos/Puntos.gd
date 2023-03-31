@@ -13,6 +13,6 @@ func _process(delta):
 
 
 func _on_area_2d_body_entered(body):
-#	puntos = puntos + 10
-#	print (puntos)
+	puntos = puntos + 10
+	print (puntos)
 	pass # Replace with function body.

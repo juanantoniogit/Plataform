@@ -97,3 +97,5 @@ frame = 1
 libraries = {
 "": SubResource("AnimationLibrary_0i7wx")
 }
+
+[node name="Camera2D" type="Camera2D" parent="."]
