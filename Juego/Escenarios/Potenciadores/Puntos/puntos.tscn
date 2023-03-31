@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://cuf85d4a14xam"]
 
-[ext_resource type="Script" path="res://Juego/Escenarios/Potenciadores/Puntos.gd" id="1_arcn1"]
+[ext_resource type="Script" path="res://Juego/Escenarios/Potenciadores/Puntos/Puntos.gd" id="1_dpk05"]
 [ext_resource type="Texture2D" uid="uid://r4k7gcgk7fbo" path="res://Recursos/TileMap/preview.png" id="2_apyn4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ittbf"]
 size = Vector2(12, 12)
 
 [node name="Puntos" type="Node2D"]
-script = ExtResource("1_arcn1")
+script = ExtResource("1_dpk05")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_apyn4")

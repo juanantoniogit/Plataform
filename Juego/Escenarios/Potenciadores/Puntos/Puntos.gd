@@ -13,6 +13,7 @@ func _process(delta):
 
 
 func _on_area_2d_body_entered(body):
-	puntos = puntos + 10
-	print (puntos)
+	Global.puntos = Global.puntos + 10
+	print (Global.puntos)
+	queue_free()
 	pass # Replace with function body.
