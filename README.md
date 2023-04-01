@@ -17,9 +17,9 @@ Imagen de TileMap:
 	    
 	    
 Fuente01:    
-	Autor: Eduardo Rodriguez Tunni    
-	Nombre: [Lemon font](https://fontlibrary.org/en/font/lemon)
-	Licencia: OFL (SIL Open Font License)
+	Autor: Eduardo Rodriguez Tunni       
+	Nombre: [Lemon font](https://fontlibrary.org/en/font/lemon)    
+	Licencia: OFL (SIL Open Font License)    
 	Directorio en el proyecto:[Recursos/Fuentes/fuente01.ttf](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Fuentes/fuente01.ttf)
 
 Audio puntos:  
