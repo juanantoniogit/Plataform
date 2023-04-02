@@ -5,6 +5,7 @@
 [ext_resource type="AudioStream" uid="uid://bw7mpk18went7" path="res://Recursos/Sonidos/pot02.wav" id="3_ealmn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qa1c2"]
+size = Vector2(10, 9)
 
 [node name="Ganar" type="Node2D"]
 script = ExtResource("1_ht77p")
@@ -12,6 +13,7 @@ script = ExtResource("1_ht77p")
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-2, -1.5)
 shape = SubResource("RectangleShape2D_qa1c2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -19,7 +21,7 @@ position = Vector2(-8, -7)
 texture = ExtResource("2_t0tue")
 centered = false
 region_enabled = true
-region_rect = Rect2(138.926, 16.8073, 16.5398, 14.8434)
+region_rect = Rect2(141.863, 18.0802, 11.6487, 11.7564)
 
 [node name="AudioWin" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_ealmn")

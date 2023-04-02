@@ -8,8 +8,10 @@ func _ready():
 	
 func _load_scene(personaje):
 	Global.personaje = load(personaje).instantiate()
+	print(Global.personaje.name)
 	Global.personaje.set_name("personaje")
 	Global.RutaPersonajeSelect = personaje
+	print(personaje)
 	get_node("/root/Global Menus").add_child(SelecNiveles)
 	$".".queue_free()
 

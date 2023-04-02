@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://2joylr1ftd7k"]
+
+[ext_resource type="Script" path="res://Juego/HUD/Puntos/puntos.gd" id="1_f88cd"]
+[ext_resource type="FontFile" uid="uid://b34r4v7i2rm4l" path="res://Recursos/Fuentes/fuente01.ttf" id="2_5qjxw"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_uigh7"]
+font = ExtResource("2_5qjxw")
+
+[node name="Puntos" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f88cd")
+
+[node name="Label" type="Label" parent="."]
+clip_contents = true
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 22.0
+label_settings = SubResource("LabelSettings_uigh7")

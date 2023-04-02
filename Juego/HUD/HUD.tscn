@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://d3xwl0dnu5pjp"]
+
+[ext_resource type="PackedScene" uid="uid://2joylr1ftd7k" path="res://Juego/HUD/Puntos/puntos.tscn" id="1_ekh2t"]
+[ext_resource type="PackedScene" uid="uid://c02g7ed2ew06g" path="res://Juego/HUD/Vidas/vidas.tscn" id="1_ingfi"]
+[ext_resource type="Script" path="res://Juego/HUD/HUD.gd" id="1_qrpp5"]
+
+[node name="HUD" type="Control"]
+z_index = 1
+layout_mode = 3
+anchors_preset = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+script = ExtResource("1_qrpp5")
+
+[node name="Vidas" parent="." instance=ExtResource("1_ingfi")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+
+[node name="Puntos" parent="." instance=ExtResource("1_ekh2t")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+size_flags_horizontal = 0
