@@ -5,6 +5,8 @@ var Jugar = preload("res://Menus/Select Personaje/SelectPersonaje.tscn").instant
 
 func _ready():
 	$VBoxContainer.set_position(Vector2(get_viewport().size.x/4 , get_viewport().size.y/4))
+	
+
 	pass
 
 func _on_Creditos_pressed():

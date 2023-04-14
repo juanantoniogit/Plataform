@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://djyxij5ovp037"]
+[gd_scene load_steps=4 format=3 uid="uid://dxe1j8deuqh33"]
 
 [ext_resource type="Script" path="res://Menus/Game Over/GameOver.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://bggme2nwqjq23" path="res://Menus/Comunes/Boton Menu principal.tscn" id="2"]
-[ext_resource type="AudioStream" uid="uid://ct6avv6unx0q" path="res://Menus/Sonidos/GameOver.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://ca2hehihtekq8" path="res://Recursos/Sonidos/musica03.mp3" id="3"]
 
 [node name="GameOver" type="Node"]
 script = ExtResource("1")
@@ -11,6 +11,10 @@ script = ExtResource("1")
 text = "Game Over"
 
 [node name="Boton Menu principal" parent="." instance=ExtResource("2")]
+offset_left = 20.0
+offset_top = 121.0
+offset_right = 20.0
+offset_bottom = 121.0
 
 [node name="AudioGameOver" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3")

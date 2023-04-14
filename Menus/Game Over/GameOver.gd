@@ -7,7 +7,7 @@ var contador = 0
 
 func _ready():
 	set_process(true)
-	print($".".get_node("AudioGameOver").play())
+	#print($".".get_node("AudioGameOver").play())
 	pass
 
 func _process(delta):
@@ -16,6 +16,8 @@ func _process(delta):
 		print("fuera")
 		
 		get_node("/root/Global Menus").add_child(MenuPrincipal)
-		get_parent().get_node("Musica Menus").play()
+		get_parent().get_node("Global Menus/Sonidos/Musica03").play()
+		#get_parent().get_node("Global Menus/SelectNiveles").queue_free()
+		#get_node("/root/SelectNiveles").queue_free()
 		$".".queue_free()
 	pass

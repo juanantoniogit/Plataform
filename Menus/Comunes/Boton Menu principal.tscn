@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bggme2nwqjq23"]
+[gd_scene load_steps=3 format=3 uid="uid://bggme2nwqjq23"]
 
 [ext_resource type="Script" path="res://Menus/Comunes/Boton Menu principal.gd" id="1_cb62r"]
+[ext_resource type="AudioStream" uid="uid://efctuxswxjj5" path="res://Recursos/Sonidos/boton01.wav" id="2_3ybib"]
 
 [node name="Boton Menu principal" type="Control"]
 layout_mode = 3
@@ -10,5 +11,8 @@ script = ExtResource("1_cb62r")
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
 text = "Menu principal"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button"]
+stream = ExtResource("2_3ybib")
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

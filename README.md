@@ -10,23 +10,16 @@ Videos referencia:
             https://www.youtube.com/watch?v=Sjmb52qFkJo
 
 Imagen de TileMap:
-            Autor: Kenney. Kenney.nl or "www.kenney.nl from OpenGameArt.org      
-            Titulo: [Platformer Art Complete Pack](https://opengameart.org/content/platformer-art-complete-pack-often-updated)       
-            Licencia: CC0          
-            Directorio en el proyecto: [/Recursos/TileMap/preview.png](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/TileMap/preview.png)    
-	    
-	    
-Fuente01:    
-	Autor: Eduardo Rodriguez Tunni       
-	Nombre: [Lemon font](https://fontlibrary.org/en/font/lemon)    
-	Licencia: OFL (SIL Open Font License)    
-	Directorio en el proyecto:[Recursos/Fuentes/fuente01.ttf](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Fuentes/fuente01.ttf)
+            Autor: Kenney. Kenney.nl or "www.kenney.nl from OpenGameArt.org  
+            Titulo: [Platformer Art Complete Pack](https://opengameart.org/content/platformer-art-complete-pack-often-updated)  
+            Licencia: CC0  
+            Directorio en el proyecto: [/Recursos/TileMap/preview.png](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/TileMap/preview.png)
 
 Audio puntos:  
 	Autor: NenadSimic  
         Nombre: [Picked Coin Echo](https://opengameart.org/content/picked-coin-echo)  
         Licencia: CC-BY 3.0  
-        Directorio en el proyecto:[Recursos/Sonidos/puntos.wav  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/puntos.wav)
+        Directorio en el proyecto:[/home/ksk/Proyectos/Plataform-main/Recursos/Sonidos/puntos.wav  ](https://github.com/juanantoniogit/Plataform/blob/main/Recursos/Sonidos/puntos.wav)
 
 Audio musica01:  
 	Nombre: [Town Theme RPG](https://opengameart.org/content/town-theme-rpg)  

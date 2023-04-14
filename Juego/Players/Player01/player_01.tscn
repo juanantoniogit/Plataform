@@ -103,6 +103,7 @@ libraries = {
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="HUD" parent="." instance=ExtResource("3_ylsfj")]
+z_index = 0
 offset_left = -532.0
 offset_top = -264.0
 offset_right = -532.0
